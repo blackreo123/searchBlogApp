@@ -10,9 +10,14 @@
 		62A102BB28ABED9B0029C9F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A102BA28ABED9B0029C9F7 /* AppDelegate.swift */; };
 		62A102BD28ABED9B0029C9F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A102BC28ABED9B0029C9F7 /* SceneDelegate.swift */; };
 		62A102BF28ABED9B0029C9F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A102BE28ABED9B0029C9F7 /* ViewController.swift */; };
-		62A102C228ABED9B0029C9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A102C028ABED9B0029C9F7 /* Main.storyboard */; };
 		62A102C428ABED9E0029C9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A102C328ABED9E0029C9F7 /* Assets.xcassets */; };
 		62A102C728ABED9E0029C9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A102C528ABED9E0029C9F7 /* LaunchScreen.storyboard */; };
+		62A102D028ABEE1A0029C9F7 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 62A102CF28ABEE1A0029C9F7 /* RxCocoa */; };
+		62A102D428ABEE1A0029C9F7 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 62A102D328ABEE1A0029C9F7 /* RxRelay */; };
+		62A102D828ABEE1A0029C9F7 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 62A102D728ABEE1A0029C9F7 /* RxSwift */; };
+		62A102DD28ABEEEC0029C9F7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 62A102DC28ABEEEC0029C9F7 /* Kingfisher */; };
+		62A102E028ABEF410029C9F7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 62A102DF28ABEF410029C9F7 /* SnapKit */; };
+		62A102E428ABF3410029C9F7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A102E328ABF3410029C9F7 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,10 @@
 		62A102BA28ABED9B0029C9F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A102BC28ABED9B0029C9F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		62A102BE28ABED9B0029C9F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		62A102C128ABED9B0029C9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62A102C328ABED9E0029C9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62A102C628ABED9E0029C9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A102C828ABED9E0029C9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A102E328ABF3410029C9F7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A102E028ABEF410029C9F7 /* SnapKit in Frameworks */,
+				62A102D428ABEE1A0029C9F7 /* RxRelay in Frameworks */,
+				62A102DD28ABEEEC0029C9F7 /* Kingfisher in Frameworks */,
+				62A102D828ABEE1A0029C9F7 /* RxSwift in Frameworks */,
+				62A102D028ABEE1A0029C9F7 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +69,10 @@
 				62A102BA28ABED9B0029C9F7 /* AppDelegate.swift */,
 				62A102BC28ABED9B0029C9F7 /* SceneDelegate.swift */,
 				62A102BE28ABED9B0029C9F7 /* ViewController.swift */,
-				62A102C028ABED9B0029C9F7 /* Main.storyboard */,
 				62A102C328ABED9E0029C9F7 /* Assets.xcassets */,
 				62A102C528ABED9E0029C9F7 /* LaunchScreen.storyboard */,
 				62A102C828ABED9E0029C9F7 /* Info.plist */,
+				62A102E328ABF3410029C9F7 /* SearchBar.swift */,
 			);
 			path = SearchBlogApp;
 			sourceTree = "<group>";
@@ -83,6 +93,13 @@
 			dependencies = (
 			);
 			name = SearchBlogApp;
+			packageProductDependencies = (
+				62A102CF28ABEE1A0029C9F7 /* RxCocoa */,
+				62A102D328ABEE1A0029C9F7 /* RxRelay */,
+				62A102D728ABEE1A0029C9F7 /* RxSwift */,
+				62A102DC28ABEEEC0029C9F7 /* Kingfisher */,
+				62A102DF28ABEF410029C9F7 /* SnapKit */,
+			);
 			productName = SearchBlogApp;
 			productReference = 62A102B728ABED9B0029C9F7 /* SearchBlogApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,11 @@
 				Base,
 			);
 			mainGroup = 62A102AE28ABED9B0029C9F7;
+			packageReferences = (
+				62A102CE28ABEE1A0029C9F7 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				62A102DB28ABEEEC0029C9F7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				62A102DE28ABEF410029C9F7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 62A102B828ABED9B0029C9F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +149,6 @@
 			files = (
 				62A102C728ABED9E0029C9F7 /* LaunchScreen.storyboard in Resources */,
 				62A102C428ABED9E0029C9F7 /* Assets.xcassets in Resources */,
-				62A102C228ABED9B0029C9F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62A102BF28ABED9B0029C9F7 /* ViewController.swift in Sources */,
+				62A102E428ABF3410029C9F7 /* SearchBar.swift in Sources */,
 				62A102BB28ABED9B0029C9F7 /* AppDelegate.swift in Sources */,
 				62A102BD28ABED9B0029C9F7 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +169,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		62A102C028ABED9B0029C9F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62A102C128ABED9B0029C9F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		62A102C528ABED9E0029C9F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +305,6 @@
 				INFOPLIST_FILE = SearchBlogApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +331,6 @@
 				INFOPLIST_FILE = SearchBlogApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +368,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62A102CE28ABEE1A0029C9F7 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		62A102DB28ABEEEC0029C9F7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		62A102DE28ABEF410029C9F7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62A102CF28ABEE1A0029C9F7 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62A102CE28ABEE1A0029C9F7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		62A102D328ABEE1A0029C9F7 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62A102CE28ABEE1A0029C9F7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		62A102D728ABEE1A0029C9F7 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62A102CE28ABEE1A0029C9F7 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		62A102DC28ABEEEC0029C9F7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62A102DB28ABEEEC0029C9F7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		62A102DF28ABEF410029C9F7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62A102DE28ABEF410029C9F7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 62A102AF28ABED9B0029C9F7 /* Project object */;
 }
