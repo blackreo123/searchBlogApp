@@ -59,7 +59,7 @@ class BlogListCell: UITableViewCell {
     func setData(_ data: BlogListCellData) {
         thumbnailImageView.kf.setImage(with: data.thumbnailURL, placeholder: UIImage(systemName: "photo"))
         nameLabel.text = data.name
-        titleLabel.text = data.title
+        titleLabel.text = data.title?.replacingOccurrences(of: "<b>", with: "").replacingOccurrences(of: "</b>", with: "")
         
         var datetime: String {
             let dateFormatter = DateFormatter()
